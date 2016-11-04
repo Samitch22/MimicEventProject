@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="684.0" prefWidth="817.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="colatzcalculator.FXMLDocumentController">
+    <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="41.0" prefHeight="17.0" prefWidth="213.0" text="N - Binary" textAlignment="CENTER" />
+      <TextField fx:id="txtNBinary" layoutX="14.0" layoutY="65.0" prefHeight="25.0" prefWidth="213.0" />
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtNBase10" editable="false" layoutX="245.0" layoutY="65.0" prefHeight="25.0" prefWidth="193.0" />
+      <Label alignment="CENTER" layoutX="248.0" layoutY="41.0" prefHeight="17.0" prefWidth="187.0" text="N - Base 10" textAlignment="CENTER" />
+      <TextArea fx:id="txtFldHistory" editable="false" layoutX="468.0" layoutY="4.0" prefHeight="670.0" prefWidth="329.0" />
+      <Button fx:id="btnNextN" layoutX="8.0" layoutY="96.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Next N" />
+      <Button fx:id="btnCllear" layoutX="9.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Clear" />
+    </children>
+</AnchorPane>
